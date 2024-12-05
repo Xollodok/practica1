@@ -1,0 +1,166 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    background-color: #333;
+    color: white;
+    padding: 15px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.nav-links {
+    list-style: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-left: 20px;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.hero {
+    position: relative;
+    overflow: hidden;
+}
+
+.hero-video {
+    width: 100%;
+    height: auto;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.hero-content h2 {
+    font-size: 36px;
+}
+
+.request-form {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+}
+
+.request-form h2 {
+    text-align: center;
+}
+
+.request-form form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.request-form input, .request-form textarea {
+    margin: 10px 0;
+    padding: 10px;
+    width: 80%;
+}
+
+.request-form button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+}
+
+.reviews {
+    padding: 40px 20px;
+}
+
+.review-card {
+    background-color: #e9ecef;
+    padding: 15px;
+    margin: 10px 0;
+}
+
+.review-card img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+}
+
+.footer .container {
+    text-align: center;
+}
+
+.socials a {
+    color: white;
+    margin-right: 10px;
+}
+
+
+.collache {
+    width: 490px;
+    height: 400px;
+}
+
+.parent {
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    
+}
+
+@media (max-width: 900px) {
+    .parent img {
+      width: 200px;
+      height: 100px;
+    }
+
+    .hero .hero-content .video-h2{
+        font-size: 70%;
+      }
+  
+  
+    
+  }
+
+
+  @media (max-width: 800px) {
+    .parent img {
+      width: 175px;
+      height: 80px;
+    }
+
+    .hero .hero-content .video-h2{
+        font-size: 70%;
+      }
+  
+    
+  }
+
+
+
